@@ -1,0 +1,12 @@
+.sigBox {
+	position: relative;
+	padding: 30px 0 30px 0;
+	background-color: #043d5d;
+}
+
+.signatureLogo {
+	width: 40px;
+	height: 40px;
+	margin: 0 auto;
+	background: url('img/signature.png') 50% 50% no-repeat;
+}
