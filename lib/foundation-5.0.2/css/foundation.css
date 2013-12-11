@@ -1,4 +1,87 @@
 @import url("//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,700");
+
+@font-face {
+  font-family: 'Nexa';
+  src: url('../fonts/NexaLight.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Nexa';
+  src: url('../fonts/NexaBold.otf');
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+sub {
+  vertical-align: sub;
+}
+
+sup {
+  vertical-align: super;
+}
+
+body {
+  background: #fff;
+  font-family: "Nexa", HelveticaNeue, Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 16px;
+  font-size: 1.6rem;
+  line-height: 24px;
+  color: #FFF;
+  position: relative;
+  -webkit-font-smoothing: antialiased;
+}
+
 meta.foundation-mq-small {
   font-family: "/only screen and (max-width: 40em)/";
   width: 0em; }
@@ -35,7 +118,7 @@ body {
   color: #222222;
   padding: 0;
   margin: 0;
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "Nexa", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
   line-height: 1;
@@ -2955,10 +3038,10 @@ p {
 
 /* Default header styles */
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-  font-weight: 300;
+  font-family: "Nexa", "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-weight: bold;
   font-style: normal;
-  color: #222222;
+  color: #FFF;
   text-rendering: optimizeLegibility;
   margin-top: 0.2rem;
   margin-bottom: 0.5rem;

@@ -1,12 +1,73 @@
+@font-face {
+	font-family: 'Nexa';
+	src: url('../fonts/NexaLight.otf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Nexa';
+	src: url('../fonts/NexaBold.otf');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@import url(reset.css);
+
 .sigBox {
 	position: relative;
 	padding: 30px 0 30px 0;
 	background-color: #043d5d;
 }
 
+.tableOfContents {
+	position: relative;
+	padding: 30px 0 30px 0;
+	background-color: #449bb5;
+}
+
 .signatureLogo {
-	width: 40px;
-	height: 40px;
+	width: 200px;
+	height: 100px;
 	margin: 0 auto;
-	background: url('img/signature.png') 50% 50% no-repeat;
+	background: url('../img/signature.png') 50% 50% no-repeat;
+	background-size: 200px;
+}
+
+.contents {
+	text-align: center;
+	color: #FFF;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 16px;
+	font-size: 1.6rem;
+	line-height: 24px;
+	color: #FFF;
+}
+
+.scroll {
+	background: url('../img/scroll-b.png') 50% 80% no-repeat;
+	text-align: center;
+	font-weight: bold;
+	cursor: default;
+	font-size: 12px;
+	line-height: 14px;
+	margin: 25px 0 0 0;
+	color: #60b9d4;
+	height: 65px;
+	-ms-transition: background-position 0.2s ease;
+	-moz-transition: background-position 0.2s ease;
+	-webkit-transition: background-position 0.2s ease;
+	-o-transition: background-position 0.2s ease;
+	transition: background-position 0.2s ease;
+}
+
+.scroll:hover {
+	color: #60b9d4;
+	background: url('../img/scroll-b.png') 50% 100% no-repeat;
+	-ms-transition: background-position 0.2s ease;
+    -moz-transition: background-position 0.2s ease;
+    -webkit-transition: background-position 0.2s ease;
+    -o-transition: background-position 0.2s ease;
+    transition: background-position 0.2s ease;
 }
