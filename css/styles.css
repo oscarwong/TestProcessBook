@@ -95,6 +95,16 @@
 	line-height: 24px;
 }
 
+.introContent {
+	color: #FFF;
+}
+
+.introPic {
+	background: url('../img/login.png') 50% 0 no-repeat;
+	background-size: 170px;
+	height: 400px;
+}
+
 .links a {
 	color: #FFF;
 	-webkit-transition: color .1s ease-in-out;
