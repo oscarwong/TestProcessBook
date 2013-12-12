@@ -32,6 +32,42 @@
 	background-color: #68c39f;
 }
 
+.groupInitiation {
+	position: relative;
+	padding: 100px 0 100px 0;
+	background-color: #fff;
+}
+
+.problem {
+	position: relative;
+	padding: 120px 0 60px 0;
+	background-color: #e6353a;
+}
+
+.ideation {
+	position: relative;
+	padding: 100px 0 50px 0;
+	background-color: #f47723;
+}
+
+.prototyping {
+	position: relative;
+	padding: 100px 0 50px 0;
+	background-color: #f8c119;
+}
+
+.designing {
+	position: relative;
+	padding: 100px 0 50px 0;
+	background-color: #fff;
+}
+
+.conclusion {
+	position: relative;
+	padding: 100px 0 50px 0;
+	background-color: #449bb5;
+}
+
 .signatureLogo {
 	width: 200px;
 	height: 60px;
@@ -103,6 +139,101 @@
 	background: url('../img/login.png') 50% 0 no-repeat;
 	background-size: 170px;
 	height: 400px;
+}
+
+.giTitle h1{
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: #449bb5;
+	line-height: 85px;
+}
+
+.giContent {
+	text-align: center;
+	color: #000;
+	padding: 30px;
+	border: 4px solid #000;
+}
+
+.problemTitle h1{
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: #fff;
+	line-height: 90px;
+}
+
+.questionMarks {
+	background: url('../img/questionMarks.png') 85% 0 no-repeat;
+	height: 500px;
+	background-size: 300px;
+}
+
+.ideation h1 {
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: #f8c119;
+}
+
+.ideationContent {
+	color: #fff;
+	padding-top: 80px;
+}
+
+.ideationPicture {
+	background: url('../img/stickynotes.png') 50% 50% no-repeat;
+	height: 500px;
+	background-size: 500px;
+}
+
+.prototyping h1 {
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: #fff;
+	line-height: 90px;
+}
+
+.prototypingPictures {
+	background: url('../img/prototypes.png') 50% 50% no-repeat;
+	height: 750px;
+	background-size: 500px;
+}
+
+.designingTitle h1 {
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: #449bb5;
+	line-height: 90px;
+}
+
+.home {
+	width: 150px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.designingContents {
+	padding-top: 200px;
+}
+
+.conclusion h1 {
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: #fff;
+	line-height: 90px;
+}
+
+.conclusionContents {
+	text-align: center;
+	color: #fff;
+	padding: 30px;
+	border: 4px solid #fff;
 }
 
 .links a {
